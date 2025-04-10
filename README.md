@@ -6,7 +6,7 @@
 ## Concept
 
 * No color juggling and spam with emojis.
-* Focus on input line and current directory; other things are secondary.
+* Focus on input line and current directory.
 * Command always starts at a fixed position.
 * Output is separated by a line.
 * Time matters.
