@@ -7,12 +7,10 @@ Monochrome style for [starship](https://github.com/starship/starship) prompt. Us
 Concept:
 
 * No color juggling.
-
 * Focus on input line and current directory; other things are secondary.
-
 * Command always starts at a fixed position.
-
 * Output is separated by a line.
+* Time matters.
 
 ## Install
 
