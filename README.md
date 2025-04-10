@@ -1,6 +1,6 @@
 # starship-prompt-mono
 
-Monochrome style for [starship](https://github.com/starship/starship) prompt. Using single color without emoji to stay focused.
+Monochrome style for [starship](https://github.com/starship/starship) prompt. Using single color without emoji to stay focused on command line.
 
 <img width="1170" alt="image" src="https://github.com/user-attachments/assets/e3aafd9f-c6ad-4ca0-a902-9e7767201212" />
 
