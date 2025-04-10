@@ -9,7 +9,7 @@
 
 Concept:
 
-* No color juggling.
+* No color juggling and spam with emojis.
 * Focus on input line and current directory; other things are secondary.
 * Command always starts at a fixed position.
 * Output is separated by a line.
