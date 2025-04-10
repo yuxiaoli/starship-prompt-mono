@@ -12,12 +12,6 @@ wget https://raw.githubusercontent.com/anki-code/starship-prompt-mono/refs/heads
 # Run the shell with starship support
 ```
 
-## Known issues
-
-### Cover all modules
-
-Feel free to change style and remove emoji for all modules.
-
 ## Credits
 
 * [xontrib-prompt-bar](https://github.com/anki-code/xontrib-prompt-bar) - The bar prompt for xonsh shell with customizable sections and Starship support.
