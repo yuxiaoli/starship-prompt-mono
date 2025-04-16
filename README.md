@@ -24,6 +24,12 @@ vim starship.toml  # Set your shell character: `@` - xonsh, `$` - bash, `%` - zs
 # Run the shell with starship support.
 ```
 
+## Notes
+
+### Using with xonsh
+
+Use starship-prompt-mono with xonsh via [xontrib-prompt-starship](https://github.com/anki-code/xontrib-prompt-starship).
+
 ## Credits
 
 * [xontrib-prompt-bar](https://github.com/anki-code/xontrib-prompt-bar) - The bar prompt for xonsh shell with customizable sections and Starship support.
