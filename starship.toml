@@ -1,13 +1,13 @@
 palette = "grey"
 format = """$username$hostname$directory$fill[$all](grey)$time$line_break$character"""
 
-[fill]
-symbol = '─'
-style = '#222222'
-
 [character]
 success_symbol = "[@](bold green)"
 error_symbol = "[@](bold red)"
+
+[fill]
+symbol = '─'
+style = '#222222'
 
 [cmd_duration]
 min_time = 10000
