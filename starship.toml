@@ -1,5 +1,5 @@
 # palette = "grey"
-palette = "silver"
+palette = "grey"
 format = """$username$hostname$directory$fill[$all](grey)$time$line_break$character"""
 
 [character]
@@ -8,7 +8,7 @@ error_symbol = "[@](bold red)"
 
 [fill]
 symbol = '─'
-style = '#222222'
+style = "fill_style"
 
 [cmd_duration]
 min_time = 10000
@@ -16,7 +16,7 @@ min_time = 10000
 [time]
 disabled = false
 time_format = "%F %T"
-style = "#444444"
+style = "time_style"
 format = '[$time]($style)'
 
 [python]
@@ -24,7 +24,7 @@ symbol = "py "
 
 [package]
 symbol = "package "
-style = "#777777"
+style = "package_style"
 
 [git_branch]
 symbol = "git "
@@ -34,13 +34,17 @@ symbol = "aws "
 
 [terraform]
 symbol = "tf "
-style = "bold #777777"
+style = "bold terraform_style"
 
 [palettes.grey]
 grey = "#777777"
 none = "#777777"
 white = "#777777"
 rosewater = "#777777"
+fill_style = "#222222"
+time_style = "#444444"
+package_style = "#777777"
+terraform_style = "#777777"
 flamingo = "#777777"
 pink = "#777777"
 mauve = "#777777"
@@ -79,6 +83,10 @@ grey = "#C0C0C0"
 none = "#C0C0C0"
 white = "#C0C0C0"
 rosewater = "#C0C0C0"
+fill_style = "#6B6B6B"
+time_style = "#8D8D8D"
+package_style = "#C0C0C0"
+terraform_style = "#C0C0C0"
 flamingo = "#C0C0C0"
 pink = "#C0C0C0"
 mauve = "#C0C0C0"
@@ -116,6 +124,10 @@ grey = "#11FF00"
 none = "#11FF00"
 white = "#11FF00"
 rosewater = "#11FF00"
+fill_style = "#004400"
+time_style = "#008800"
+package_style = "#11FF00"
+terraform_style = "#11FF00"
 flamingo = "#11FF00"
 pink = "#11FF00"
 mauve = "#11FF00"
